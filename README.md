@@ -7,9 +7,13 @@ Push code len branch thong thuong:
 2. git branch -a: xem co bao nhieu branch dang o local cua minh.
 Neu co het roi thi continue 3:
 Neu chua thi download no ve:
+
 	2.1. git fetch --all
+
 	2.2. git branch -a : de check
+
 	Muon pull branch nao ve de lam viec:
+    
 	2.3. git checkout -b main origin/man (vd branch main origin/... khi git branch -a se thay)
 
 	Luu y la khi muon add 1 so file chinh sua hien tai vao branch moi pull ve thi copy file do 	bo cho khac chu khi pull ve minh k thay no nua phai mac cong pull lai branch cu cua minh. 	Sau do copy file muon add vao branch kia roi git add . (co the add file can add thoi)
