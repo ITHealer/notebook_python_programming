@@ -31,10 +31,6 @@ ________________________________________________________________________________
 Connect cu can xoa va tao connect toi repo moi:
 cd C:\Users\<username>\Desktop\my-project
 git remote -v
-# Output:
-# origin  https://gitlab.com/<username>/<repo-name-old> (fetch)
-# origin  https://gitlab.com/<username>/<repo-name-old> (push)
-
 git remote rm origin
 git remote add origin https://gitlab.com/<username>/<repo-name-new>
 git checkout dev
