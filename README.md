@@ -29,14 +29,16 @@ Neu chua thi download no ve:
 ______________________________________________________________________________________________
 
 Connect cu can xoa va tao connect toi repo moi:
+
 cd C:\Users\<username>\Desktop\my-project
-git remote -v
-git remote rm origin
-git remote add origin https://gitlab.com/<username>/<repo-name-new>
-git checkout dev
-git add .
-git commit -m "Thay doi repo duoc remote"
-git push origin dev
+
+- git remote -v
+- git remote rm origin
+- git remote add origin https://gitlab.com/<username>/<repo-name-new>
+- git checkout dev
+- git add .
+- git commit -m "Thay doi repo duoc remote"
+- git push origin dev
 ______________________________________________________________________________________________
 Merge:
 1. git branch: xem mình dang branch nào
@@ -53,12 +55,12 @@ Dam bao minh dang o branch ma minh muon merge thi moi merge
 3. git branch 
 4. git merge <merge branch code cua minh>
 
-sau khi xu ly conflict:
+Sau khi xu ly conflict:
 git add .
 git commit -m "merge branch <tên branch c? minh> into <ten branch merge vo>"
 git log --oneline
 
-check out ve lai branch cua minh 
+Checkout ve lai branch cua minh 
 git checkout <>
 git merge <ten branch merge vao>
 git push origin <branch cua minh>
